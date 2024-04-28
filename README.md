@@ -9,6 +9,9 @@
 # Iris & Oculus Flywheel Compat
 Allow Flywheel instancing optimization to be enabled when using iris.
 
+# INFO ABOUT THIS FORK
+This fork updates the compat code to work with Iris 1.7.0 on 1.20.1.
+
 # Principle
 Flywheel uses a method called GPU Instancing to render entities. It is very efficient when rendering a large number of repeating entities (e.g. gears in Create mod). But when you use iris and enable shaderpack, this optimization is disabled. Because flywheel needs to use its own shader to render these entities and flywheel's shader will no longer work when you enable shaderpack.
 
